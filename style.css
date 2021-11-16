@@ -1,0 +1,75 @@
+* {
+     box-sizing: border-box;
+}
+
+
+body {
+     height: 100%;
+     width: 100%;
+     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+main {
+     width: 45%;
+     background: white;
+     margin: auto;
+     padding: 16px;
+     margin-top: 80px;
+     border-radius: 16px;
+}
+
+.container {
+     width: 66%;
+     margin: auto;
+}
+
+.bold {
+     font-weight: bold;
+}
+
+.question p {
+     display: inline-block;
+     margin-right: 6px;
+     font-size: 16px;
+}
+
+.question {
+     cursor: pointer;
+}
+
+.answer {
+     display: none;
+     overflow: hidden;
+}
+
+.active {
+     display: block;
+}
+
+/*imagem.forEach(el => {
+     el.addEventListener('click', function() {
+          el.classList.toggle('bold')
+          this.nextElementSibling.classList.toggle('active')
+     })
+
+
+     const question = document.querySelectorAll('.question');
+const answer = document.querySelectorAll('.answer');
+
+
+for (i = 0; i < question.length; i++) {
+     question[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+
+        Toggle between hiding and showing the active panel 
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+        });
+   }
+}); */ 
